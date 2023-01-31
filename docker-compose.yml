@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  taxpayertaxcalculation.api:
+    image: ${DOCKER_REGISTRY-}taxpayertaxcalculationapi
+    build:
+      context: .
+      dockerfile: TaxPayerTaxCalculation.Api/Dockerfile
