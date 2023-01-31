@@ -9,4 +9,4 @@ For Docker use these commands:
 
 docker build -f TaxPayerTaxCalculation.Api/Dockerfile -t taskcalculator:v1 .
 
-docker run -it --rm -p 8080:80 taskcalculator:v1:v1
+docker run -it --rm -p 8080:80 taskcalculator:v1
